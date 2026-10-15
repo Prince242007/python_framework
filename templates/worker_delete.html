@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<a class="back-link" href="{{ url_for('salary.detail', worker_id=worker.id) }}">← {{ worker.name }}</a>
+<section class="form-panel"><h1>{{ 'એડવાન્સ કાઢવો છે?' if advance else 'કર્મચારી કાઢવો છે?' }}</h1><h2>{{ worker.name }}</h2>
+{% if advance %}<p>{{ advance.reason }} · {{ advance.date }}</p><p>₹{{ advance.amount_paise | money }}</p><p>આ નોંધ કાઢવાથી તે મહિનાની પગાર ગણતરી બદલાશે.</p>{% endif %}
+{% if blocked %}<p class="form-error" role="alert">આ કર્મચારીના કલાક અથવા એડવાન્સ નોંધાયેલા છે. ઇતિહાસ સાચવવા કર્મચારીને કાઢી શકાતો નથી.</p>{% else %}<form method="post" class="form-actions"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="danger-button" type="submit">હા, કાઢો</button><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id) }}">રદ કરો</a></form>{% endif %}
+</section>
+{% endblock %}

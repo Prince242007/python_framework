@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{{ bill.bill_number }} · Prince Masala{% endblock %}
+{% block content %}
+<div class="print-actions"><a class="button secondary" href="{{ url_for('billing.history') }}">← બિલ યાદી</a><a class="button secondary" href="{{ url_for('billing.new') }}">+ નવું બિલ</a><button id="print-bill" type="button">પ્રિન્ટ / PDF</button></div>
+<div class="pending-bill-action">{% if pending_entry %}<a class="button secondary" href="{{ url_for('pending.detail', pending_id=pending_entry.id) }}">ચુકવણી / બાકી વિગતો જુઓ</a>{% else %}<form method="post" action="{{ url_for('pending.from_bill', bill_id=bill.id) }}"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button type="submit" class="secondary">આ સંપૂર્ણ બિલ બાકી તરીકે ઉમેરો</button></form>{% endif %}</div>
+<article class="invoice" id="saved-invoice" data-bill-number="{{ bill.bill_number }}" data-submission-token="{{ submission_token }}">
+  <header class="invoice-header"><p class="eyebrow">બિલ / INVOICE</p><h1 lang="en">PRINCE MASALA</h1><p lang="en">Spices &amp; Dryfruits</p></header>
+  <div class="invoice-meta"><div><span>ગ્રાહકનું નામ</span><strong>{{ bill.customer_name }}</strong></div><div><span>બિલ નંબર</span><strong lang="en">{{ bill.bill_number }}</strong><span>તારીખ: {{ bill.bill_date[8:10] }}/{{ bill.bill_date[5:7] }}/{{ bill.bill_date[:4] }}</span></div></div>
+  <div class="invoice-table-wrap"><table class="invoice-table"><thead><tr><th scope="col">ક્રમાંક</th><th scope="col">વસ્તુ</th><th scope="col">જથ્થો</th><th scope="col">ભાવ (₹)</th><th scope="col">રકમ (₹)</th></tr></thead><tbody>{% for item in items %}<tr><td>{{ loop.index }}</td><td class="invoice-item-name">{{ item.gujarati_name }}</td><td>{{ item.quantity }}</td><td>{{ item.price_paise | money }}</td><td>{{ item.amount_paise | money }}</td></tr>{% endfor %}</tbody></table></div>
+  <div class="invoice-total"><span>કુલ રકમ</span><strong>₹{{ bill.total_paise | money }}</strong></div>
+  <p class="invoice-thanks">આભાર! ફરી પધારશો.</p>
+</article>
+<p class="hint print-help">પ્રિન્ટ વિન્ડોમાં પ્રિન્ટર પસંદ કરો અથવા “Save as PDF” પસંદ કરો. ફરી પ્રિન્ટ કરવાથી વેચાણની રકમ બદલાશે નહીં.</p>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/bill_detail.js') }}" defer></script>{% endblock %}

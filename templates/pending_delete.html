@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<a class="back-link" href="{{ url_for('pending.detail', pending_id=entry.id) }}">← વિગતો</a>
+<div class="form-panel"><h1>બાકી નોંધ કાઢવી છે?</h1><h2>{{ entry.customer_name }}</h2><p>કુલ ₹{{ entry.amount_paise | money }}</p><p>ચુકવણીનો ઇતિહાસ ન હોય તો જ નોંધ કાઢી શકાય છે. મૂળ સાચવેલું બિલ બદલાશે નહીં.</p><form method="post" class="form-actions"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button type="submit" class="danger-button">હા, નોંધ કાઢો</button><a class="button secondary" href="{{ url_for('pending.detail', pending_id=entry.id) }}">રદ કરો</a></form></div>
+{% endblock %}

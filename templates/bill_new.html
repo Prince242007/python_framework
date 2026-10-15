@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}નવું બિલ · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('home') }}">← મુખ્ય પાનું</a>
+<div class="welcome page-heading"><div><p class="eyebrow" lang="en">NEW BILL</p><h1>નવું બિલ</h1><p class="intro">વસ્તુઓ ઉમેરો, બિલ સાચવો અને પ્રિન્ટ કરો.</p></div><a class="button secondary" href="{{ url_for('billing.history') }}">બિલ યાદી</a></div>
+<noscript><p class="form-error">બિલ બનાવવા માટે બ્રાઉઝરમાં JavaScript ચાલુ હોવું જરૂરી છે.</p></noscript>
+{% if errors %}<div class="error-box" role="alert">{% for error in errors %}<p>{{ error }}</p>{% endfor %}</div>{% endif %}
+<form id="bill-form" method="post" data-server-errors="{{ 'true' if errors else 'false' }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <input type="hidden" name="form_token" id="form-token" value="{{ form_token }}">
+  <input type="hidden" name="items_json" id="items-json" value="[]">
+  <div class="billing-layout">
+    <div>
+      <section class="billing-panel">
+        <h2>ગ્રાહકની વિગતો</h2>
+        <div class="customer-grid"><div class="field"><label for="customer-name">ગ્રાહકનું નામ</label><input id="customer-name" name="customer_name" value="{{ values.customer_name }}" maxlength="150" required autocomplete="name" placeholder="ગ્રાહકનું નામ દાખલ કરો"></div><div class="field"><label for="bill-date">તારીખ</label><input type="date" id="bill-date" name="bill_date" value="{{ values.bill_date }}" required min="0001-01-01" max="9999-12-31"></div></div>
+      </section>
+      <section class="billing-panel">
+        <h2 id="entry-title">વસ્તુ ઉમેરો</h2>
+        <div class="field"><label for="item-search">વસ્તુ શોધો</label><input id="item-search" type="search" placeholder="ગુજરાતી અથવા English નામથી શોધો" autocomplete="off" aria-controls="search-results" aria-describedby="selected-item"><div id="search-results" class="search-results"></div><p id="selected-item" class="hint" aria-live="polite">વસ્તુ શોધીને યાદીમાંથી પસંદ કરો.</p></div>
+        <div class="customer-grid"><div class="field"><label for="quantity">જથ્થો</label><input id="quantity" inputmode="numeric" maxlength="6" placeholder="દા.ત. 2"></div><div class="field"><label for="selling-price">વેચાણ ભાવ (₹)</label><input id="selling-price" inputmode="decimal" maxlength="12" placeholder="ભાવ જાતે દાખલ કરો"></div></div>
+        <p class="form-error" id="entry-error" role="alert"></p>
+        <div class="form-actions"><button type="button" id="add-item">+ બિલમાં ઉમેરો</button><button type="button" class="secondary" id="cancel-edit" hidden>ફેરફાર રદ કરો</button></div>
+      </section>
+    </div>
+    <aside class="billing-panel bill-summary"><p class="eyebrow" lang="en">BILL SUMMARY</p><h2>બિલનો સારાંશ</h2><p><span id="line-count">0</span> વસ્તુઓ</p><div class="grand-total"><span>કુલ રકમ</span><strong id="bill-total">₹0.00</strong></div><button id="save-bill" type="submit" disabled>બિલ સાચવો અને જુઓ →</button><p class="hint">સાચવ્યા પછી પ્રિન્ટ અથવા PDF તરીકે સાચવી શકશો.</p><p class="hint" id="draft-status" role="status"></p></aside>
+  </div>
+</form>
+<section class="bill-lines"><div class="section-heading"><h2>બિલની વસ્તુઓ</h2></div><div id="bill-lines" class="catalogue"></div></section>
+{% endblock %}
+{% block scripts %}
+<script id="catalogue-data" type="application/json">{{ catalogue | tojson }}</script>
+<script id="initial-rows" type="application/json">{{ initial_rows | tojson }}</script>
+<script src="{{ url_for('static', filename='js/billing.js') }}" defer></script>
+{% endblock %}

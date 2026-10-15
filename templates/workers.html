@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}કર્મચારી પગાર · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('home') }}">← મુખ્ય પાનું</a>
+<div class="welcome page-heading"><div><p class="eyebrow" lang="en">WORKER SALARY</p><h1>કર્મચારી પગાર</h1><p class="intro">કામના કલાકો, એડવાન્સ અને માસિક પગાર.</p></div><a class="button" href="{{ url_for('salary.form') }}">+ કર્મચારી ઉમેરો</a></div>
+<form class="search-bar" method="get"><label class="sr-only" for="worker-query">કર્મચારી શોધો</label><input id="worker-query" name="q" type="search" value="{{ query }}" placeholder="કર્મચારીનું નામ શોધો" maxlength="150"><label class="sr-only" for="worker-month">મહિનો</label><input id="worker-month" class="month-input" name="month" type="month" value="{{ month }}" required><button type="submit">જુઓ</button></form>
+<div class="catalogue">{% for worker in workers %}<article class="product-row"><div class="product-name"><h3>{{ worker.name }}</h3><p>હાલનો દર ₹{{ worker.hourly_rate_paise | money }} / કલાક</p><p>{{ month }} · {{ worker.summary.hours }} કલાક · એડવાન્સ ₹{{ worker.summary.advance | money }}</p></div><div class="balance-label"><span>ચૂકવવાનો પગાર</span><strong class="product-price">₹{{ worker.summary.payable | money }}</strong></div><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id, month=month) }}">વિગતો</a></article>{% else %}<div class="empty-state"><h2>કર્મચારી મળ્યો નથી.</h2><p>નવો કર્મચારી ઉમેરો અથવા બીજું નામ શોધો.</p></div>{% endfor %}</div>
+{% endblock %}

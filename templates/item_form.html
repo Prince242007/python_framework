@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}વસ્તુ {{ 'સુધારો' if item else 'ઉમેરો' }} · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('products.index') }}">← વસ્તુઓ</a>
+<div class="page-heading"><p class="eyebrow" lang="en">ITEM CATALOGUE</p><h1>વસ્તુ {{ 'સુધારો' if item else 'ઉમેરો' }}</h1></div>
+<form method="post" class="form-panel">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  {% if errors %}<p class="form-error" role="alert">નીચેની વિગતો તપાસીને ફરી સાચવો.</p>{% endif %}
+  {% for key, label, placeholder in [('gujarati_name', 'ગુજરાતી નામ', 'દા.ત. કાજુ ૨૫૦ ગ્રામ'), ('search_name', 'શોધ માટેનું English નામ', 'e.g. kaju 250 gram'), ('price', 'સંદર્ભ ભાવ (₹)', 'દા.ત. 230.00')] %}
+  <div class="field">
+    <label for="{{ key }}">{{ label }}</label>
+    <input id="{{ key }}" name="{{ key }}" value="{{ values[key] }}" placeholder="{{ placeholder }}" required maxlength="{{ 12 if key == 'price' else 150 }}" {% if key == 'price' %}inputmode="decimal"{% endif %} {% if errors.get(key) %}aria-invalid="true" aria-describedby="{{ key }}-error"{% endif %}>
+    {% if errors.get(key) %}<p class="form-error" id="{{ key }}-error">{{ errors[key] }}</p>{% endif %}
+  </div>
+  {% endfor %}
+  <p class="hint">આ સંદર્ભ ભાવ છે. બિલ બનાવતી વખતે વેચાણનો ભાવ અલગ દાખલ કરી શકાશે.</p>
+  <div class="form-actions"><button type="submit">સાચવો</button><a class="button secondary" href="{{ url_for('products.index') }}">રદ કરો</a></div>
+</form>
+{% endblock %}

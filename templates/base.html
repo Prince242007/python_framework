@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="gu">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#8b1e1e">
+    <title>{% block title %}Prince Masala{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pending.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/salary.css') }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="{{ url_for('home') }}" aria-label="Prince Masala home">
+        <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+        <span><strong lang="en">PRINCE MASALA</strong><small lang="en">SPICES &amp; DRYFRUITS</small></span>
+      </a>
+      <nav class="header-nav" aria-label="મુખ્ય નેવિગેશન"><a href="{{ url_for('home') }}">મુખ્ય પાનું</a><a href="{{ url_for('billing.new') }}">નવું બિલ</a><a href="{{ url_for('billing.history') }}">બિલ યાદી</a><a href="{{ url_for('products.index') }}">વસ્તુઓ</a><a href="{{ url_for('pending.index') }}">બાકી બિલ</a><a href="{{ url_for('salary.index') }}">કર્મચારી</a></nav>
+    </header>
+    <main>{% for message in get_flashed_messages() %}<div class="flash-message" role="status">{{ message }}</div>{% endfor %}{% block content %}{% endblock %}</main>
+    <footer lang="en">Prince Masala &middot; Business management</footer>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

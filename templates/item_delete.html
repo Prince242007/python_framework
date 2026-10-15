@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}વસ્તુ કાઢી નાખો · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('products.index') }}">← વસ્તુઓ</a>
+<div class="page-heading"><h1>વસ્તુ કાઢી નાખવી છે?</h1></div>
+<section class="form-panel">
+  <h2>{{ item.gujarati_name }}</h2><p>{{ item.search_name }} · ₹{{ item.price_paise | money }}</p>
+  <p>આ વસ્તુ યાદીમાંથી દૂર થશે. અગાઉના બિલમાં તેનું નામ અને વેચાણનો ભાવ સાચવેલ રહેશે.</p>
+  <form method="post" class="form-actions"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button class="danger-button" type="submit">હા, કાઢી નાખો</button><a class="button secondary" href="{{ url_for('products.index') }}">રદ કરો</a></form>
+</section>
+{% endblock %}

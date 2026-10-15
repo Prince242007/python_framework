@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.customer_name }} · બાકી બિલ · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('pending.index') }}">← બાકી બિલ</a>
+<div class="welcome page-heading"><div><p class="eyebrow" lang="en">PAYMENT DETAILS</p><h1>{{ entry.customer_name }}</h1><p class="intro">{{ entry.date[8:10] }}/{{ entry.date[5:7] }}/{{ entry.date[:4] }} · {{ entry.bill_number or 'અલગ બાકી નોંધ' }}</p></div>{% if entry.bill_id %}<a class="button secondary" href="{{ url_for('billing.detail', bill_id=entry.bill_id) }}">મૂળ બિલ જુઓ</a>{% else %}<a class="button secondary" href="{{ url_for('pending.form', pending_id=entry.id) }}">વિગતો સુધારો</a>{% endif %}</div>
+<div class="summary-grid"><div class="summary-card"><span>મૂળ રકમ</span><strong>₹{{ entry.amount_paise | money }}</strong></div><div class="summary-card"><span>મળેલ ચુકવણી</span><strong>₹{{ entry.paid_paise | money }}</strong></div><div class="summary-card"><span>બાકી રકમ</span><strong>₹{{ entry.balance_paise | money }}</strong></div></div>
+{% if errors %}<div class="error-box" role="alert">{% for error in errors %}<p>{{ error }}</p>{% endfor %}</div>{% endif %}
+{% if entry.balance_paise > 0 %}
+<form class="form-panel payment-form" method="post" action="{{ url_for('pending.pay', pending_id=entry.id) }}">
+  <h2>ચુકવણી નોંધો</h2><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="form_token" value="{{ form_token }}">
+  <div class="customer-grid"><div class="field"><label for="payment-date">ચુકવણીની તારીખ</label><input id="payment-date" name="date" type="date" value="{{ values.date }}" required min="{{ entry.date }}"></div><div class="field"><label for="payment-amount">મળેલી રકમ (₹)</label><input id="payment-amount" name="amount" value="{{ values.amount }}" inputmode="decimal" maxlength="12" placeholder="મળેલી રકમ દાખલ કરો" required></div></div>
+  <button type="submit">ચુકવણી સાચવો</button><p class="hint">થોડી રકમ મળે તો તે જ દાખલ કરો. સંપૂર્ણ રકમ મળ્યા પછી નોંધ “ચૂકવેલાં”માં દેખાશે.</p>
+</form>
+{% else %}<div class="flash-message" role="status">આ બિલ સંપૂર્ણ ચૂકવાઈ ગયું છે. ચુકવણીનો ઇતિહાસ નીચે છે.</div>{% endif %}
+<section><div class="section-heading"><h2>ચુકવણીનો ઇતિહાસ</h2></div><div class="catalogue">{% for payment in payments %}<article class="product-row"><div class="product-name"><h3>ચુકવણી #{{ payment.id }}</h3><p>{{ payment.date[8:10] }}/{{ payment.date[5:7] }}/{{ payment.date[:4] }}</p></div><strong class="product-price">₹{{ payment.amount_paise | money }}</strong></article>{% else %}<p class="empty-state">હજુ કોઈ ચુકવણી નોંધાઈ નથી.</p>{% endfor %}</div></section>
+{% if not payments %}<p class="history-link"><a class="danger-link" href="{{ url_for('pending.delete', pending_id=entry.id) }}">બાકી બિલની નોંધ કાઢી નાખો</a></p>{% else %}<p class="hint">ચુકવણીનો ઇતિહાસ ધરાવતી નોંધ સાચવી રાખવામાં આવે છે.</p>{% endif %}
+{% endblock %}

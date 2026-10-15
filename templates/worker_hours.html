@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}કામના કલાક · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('salary.detail', worker_id=worker.id) }}">← {{ worker.name }}</a><div class="page-heading"><h1>કામના કલાક {{ 'સુધારો' if entry else 'ઉમેરો' }}</h1><p class="intro">{{ worker.name }}</p></div>
+{% include "salary_errors.html" %}
+<form class="form-panel" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+<div class="field"><label for="hours-date">તારીખ</label><input id="hours-date" name="date" type="date" value="{{ values.date }}" max="{{ today }}" min="0001-01-01" required {{ 'readonly' if entry }}></div>
+<div class="field"><label for="work-hours">કામના કલાક</label><input id="work-hours" name="hours" value="{{ values.hours }}" inputmode="decimal" maxlength="5" placeholder="દા.ત. 7.5" required></div>
+<p class="hint">૦ થી ૨૪ કલાક. ૭.૫ એટલે ૭ કલાક ૩૦ મિનિટ; ગેરહાજરી માટે ૦ દાખલ કરો.</p><p class="hint">આ નોંધનો કલાક દીઠ દર: ₹{{ (entry.hourly_rate_paise if entry else worker.hourly_rate_paise) | money }}</p>
+<div class="form-actions"><button type="submit">કલાક સાચવો</button><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id) }}">રદ કરો</a></div></form>
+{% endblock %}

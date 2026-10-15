@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="welcome">
+  <div>
+    <p class="eyebrow" lang="en">YOUR EVERYDAY BUSINESS, TOGETHER</p>
+    <h1>નમસ્તે, પ્રિન્સ મસાલા.</h1>
+    <p class="intro">તમારા વ્યવસાયની વિગતો એક જ જગ્યાએ.</p>
+  </div>
+  <time class="date">{{ today }}</time>
+</section>
+
+<section class="summary-grid" aria-label="આજનો સારાંશ">
+  <div class="summary-card"><span>આજનાં બિલ</span><strong>{{ summary.bill_count }}</strong></div>
+  <div class="summary-card"><span>આજનું કુલ વેચાણ</span><strong>₹{{ summary.total_paise | money }}</strong></div>
+  <div class="summary-card"><span>કુલ વસ્તુઓ</span><strong>{{ product_count }}</strong></div>
+</section>
+
+<p class="outstanding-total"><span>ગ્રાહકોની કુલ બાકી રકમ</span><a href="{{ url_for('pending.index') }}">₹{{ pending_total | money }} →</a></p>
+<section aria-labelledby="modules-title">
+  <div class="section-heading"><h2 id="modules-title">મુખ્ય વિભાગો</h2></div>
+  <div class="modules">
+    {% for number, title, english, description in [
+      ('01', 'નવું બિલ', 'NEW BILL', 'ગ્રાહક, વસ્તુઓ, જથ્થો અને ભાવ સાથે બિલ બનાવો.'),
+      ('02', 'બાકી બિલ', 'PENDING BILLS', 'ગ્રાહકોની બાકી રકમ અને ચુકવણીની વિગતો.'),
+      ('03', 'વસ્તુઓ', 'ITEM CATALOGUE', 'ગુજરાતી નામ, શોધ અને વસ્તુઓના ભાવ.'),
+      ('04', 'કર્મચારી પગાર', 'WORKER SALARY', 'કામના કલાકો, એડવાન્સ અને પગારની વિગતો.')
+    ] %}
+    <article class="module-card available">
+      <div class="card-top"><span class="module-number">{{ number }}</span><span class="planned">તૈયાર છે</span></div>
+      <p class="module-label" lang="en">{{ english }}</p>
+      <h3>{% if number == '03' %}<a href="{{ url_for('products.index') }}">{{ title }} →</a>{% elif number == '01' %}<a href="{{ url_for('billing.new') }}">{{ title }} →</a>{% elif number == '02' %}<a href="{{ url_for('pending.index') }}">{{ title }} →</a>{% else %}<a href="{{ url_for('salary.index') }}">{{ title }} →</a>{% endif %}</h3>
+      <p class="description">{{ description }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<p class="history-link"><a class="text-link" href="{{ url_for('billing.history') }}">સાચવેલાં બિલ જુઓ →</a></p>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}બાકી બિલ {{ 'સુધારો' if entry else 'ઉમેરો' }} · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('pending.index') }}">← બાકી બિલ</a>
+<div class="page-heading"><p class="eyebrow" lang="en">PENDING BALANCE</p><h1>બાકી બિલ {{ 'સુધારો' if entry else 'ઉમેરો' }}</h1></div>
+{% if errors %}<div class="error-box" role="alert">{% for error in errors %}<p>{{ error }}</p>{% endfor %}</div>{% endif %}
+<form method="post" class="form-panel">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="form_token" value="{{ form_token }}">
+  <div class="field"><label for="pending-customer">ગ્રાહકનું નામ</label><input id="pending-customer" name="customer_name" value="{{ values.customer_name }}" required maxlength="150" placeholder="ગ્રાહકનું નામ દાખલ કરો"></div>
+  <div class="field"><label for="pending-date">બિલની તારીખ</label><input id="pending-date" name="date" type="date" value="{{ values.date }}" required min="0001-01-01" max="9999-12-31"></div>
+  <div class="field"><label for="pending-amount">{{ 'નોંધની કુલ મૂળ રકમ (₹)' if entry else 'હાલની બાકી રકમ (₹)' }}</label><input id="pending-amount" name="amount" value="{{ values.amount }}" inputmode="decimal" maxlength="12" placeholder="દા.ત. 1000.00" required></div>
+  {% if entry and entry.paid_paise %}<p class="hint">મળેલી ચુકવણી ₹{{ entry.paid_paise | money }} છે. કુલ રકમ તેનાથી ઓછી રાખી શકાતી નથી.</p>{% endif %}
+  <p class="hint">આ નોંધ વેચાણના કુલમાં ઉમેરાતી નથી. સાચવેલા બિલ માટે બિલની વિગતોમાંથી “બાકી તરીકે ઉમેરો” પસંદ કરો.</p>
+  <div class="form-actions"><button type="submit">સાચવો</button><a class="button secondary" href="{{ url_for('pending.detail', pending_id=entry.id) if entry else url_for('pending.index') }}">રદ કરો</a></div>
+</form>
+{% endblock %}

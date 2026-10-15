@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}એડવાન્સ ઉમેરો · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('salary.detail', worker_id=worker.id) }}">← {{ worker.name }}</a><div class="page-heading"><h1>એડવાન્સ ઉમેરો</h1><p class="intro">{{ worker.name }}</p></div>
+{% include "salary_errors.html" %}
+<form class="form-panel" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="form_token" value="{{ form_token }}">
+<div class="field"><label for="advance-date">તારીખ</label><input id="advance-date" name="date" type="date" value="{{ values.date }}" max="{{ today }}" min="0001-01-01" required></div>
+<div class="field"><label for="advance-reason">કારણ</label><input id="advance-reason" name="reason" value="{{ values.reason }}" maxlength="250" placeholder="એડવાન્સ આપવાનું કારણ" required></div>
+<div class="field"><label for="advance-amount">એડવાન્સ રકમ (₹)</label><input id="advance-amount" name="amount" value="{{ values.amount }}" inputmode="decimal" maxlength="12" placeholder="દા.ત. 500.00" required></div>
+<p class="hint">આ રકમ પસંદ કરેલી તારીખના મહિનાની કમાણીમાંથી કપાશે.</p><div class="form-actions"><button type="submit">એડવાન્સ સાચવો</button><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id) }}">રદ કરો</a></div></form>
+{% endblock %}

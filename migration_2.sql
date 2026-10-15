@@ -1,0 +1,7 @@
+BEGIN IMMEDIATE;
+CREATE TABLE IF NOT EXISTS bill_submissions (
+    token TEXT PRIMARY KEY,
+    bill_id INTEGER NOT NULL UNIQUE REFERENCES bills(id) ON DELETE RESTRICT
+);
+PRAGMA user_version = 2;
+COMMIT;

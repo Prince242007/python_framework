@@ -1,0 +1,3 @@
+<div class="summary-grid salary-summary"><div class="summary-card"><span>કુલ કામના કલાક</span><strong>{{ summary.hours }}</strong></div><div class="summary-card"><span>કુલ કમાણી</span><strong>₹{{ summary.gross | money }}</strong></div><div class="summary-card"><span>આ મહિનાનો એડવાન્સ</span><strong>₹{{ summary.advance | money }}</strong></div></div>
+<div class="outstanding-total"><span>ચૂકવવાનો પગાર</span><strong>₹{{ summary.payable | money }}</strong></div>
+{% if summary.excess %}<p class="advance-excess">એડવાન્સ કમાણી કરતાં ₹{{ summary.excess | money }} વધારે છે. આ રકમનું અલગ સમાયોજન જરૂરી છે; આવતા મહિને આપમેળે ઉમેરાતી નથી.</p>{% endif %}

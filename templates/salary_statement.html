@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}પગાર પત્રક · {{ worker.name }} · {{ month }}{% endblock %}
+{% block content %}
+<div class="print-actions"><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id, month=month) }}">← કર્મચારીની વિગતો</a><button type="button" data-print>પ્રિન્ટ / PDF</button></div>
+<article class="invoice salary-statement"><header class="invoice-header"><p class="eyebrow">માસિક પગાર પત્રક</p><h1 lang="en">PRINCE MASALA</h1><p lang="en">Spices &amp; Dryfruits</p></header><div class="invoice-meta"><div><span>કર્મચારી</span><strong>{{ worker.name }}</strong></div><div><span>મહિનો</span><strong>{{ month }}</strong></div></div>
+{% include "salary_summary.html" %}
+<table class="invoice-table"><thead><tr><th scope="col">તારીખ</th><th scope="col">કામના કલાક</th><th scope="col">દર (₹)</th><th scope="col">કમાણી (₹)</th></tr></thead><tbody>{% for day in days %}<tr><td>{{ day.date[8:10] }}/{{ day.date[5:7] }}</td><td>{{ day.entry.hours if day.entry else '—' }}</td><td>{{ day.entry.hourly_rate_paise | money if day.entry else '—' }}</td><td>{{ day.entry.earned_paise | money if day.entry else '—' }}</td></tr>{% endfor %}</tbody></table>
+<h2 class="statement-heading">એડવાન્સની વિગતો</h2><table class="invoice-table"><thead><tr><th scope="col">તારીખ</th><th scope="col">કારણ</th><th scope="col">રકમ (₹)</th></tr></thead><tbody>{% for advance in summary.advances %}<tr><td>{{ advance.date[8:10] }}/{{ advance.date[5:7] }}</td><td>{{ advance.reason }}</td><td>{{ advance.amount_paise | money }}</td></tr>{% else %}<tr><td colspan="3">આ મહિને કોઈ એડવાન્સ નથી.</td></tr>{% endfor %}</tbody></table>
+<div class="invoice-total"><span>ચૂકવવાનો પગાર</span><strong>₹{{ summary.payable | money }}</strong></div><p class="statement-note">દરેક દિવસની કમાણી નજીકના પૈસા સુધી ગોળ કરી છે. ફક્ત આ મહિનાના એડવાન્સ કપાયા છે. “—” એટલે તે દિવસની નોંધ નથી. આ પત્રક પગારની ગણતરી છે; ચુકવણીની રસીદ નથી.</p><div class="signature-row"><span>કર્મચારીની સહી: __________________</span><span>માલિકની સહી: __________________</span></div></article>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/print.js') }}" defer></script>{% endblock %}

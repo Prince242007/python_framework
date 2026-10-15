@@ -1,0 +1,1664 @@
+[
+  {
+    "id": 1,
+    "gujarati_name": "ખજૂર ઠળિયા વાળો",
+    "search_name": "khajur thaliya valo",
+    "price_paise": 6000
+  },
+  {
+    "id": 2,
+    "gujarati_name": "ખજૂર ઠળિયા વગરનો",
+    "search_name": "khajur thaliya vagarno",
+    "price_paise": 6500
+  },
+  {
+    "id": 3,
+    "gujarati_name": "વળી ૨૪ કેરેટ",
+    "search_name": "vali 24 keret",
+    "price_paise": 3000
+  },
+  {
+    "id": 4,
+    "gujarati_name": "વળી ૧૭૫ ગ્રામ",
+    "search_name": "vali 175 gram",
+    "price_paise": 2800
+  },
+  {
+    "id": 5,
+    "gujarati_name": "એવરેસ્ટ ગરમ ૫૦ ગ્રામ",
+    "search_name": "Avrest garam 50 gram",
+    "price_paise": 45000
+  },
+  {
+    "id": 6,
+    "gujarati_name": "એવરેસ્ટ સબજી ૫૦ ગ્રામ",
+    "search_name": "Avrest sabji 50 gram",
+    "price_paise": 35000
+  },
+  {
+    "id": 7,
+    "gujarati_name": "એવરેસ્ટ મીટ ૫ વાળું",
+    "search_name": "Avrest meet 5 valu",
+    "price_paise": 24000
+  },
+  {
+    "id": 8,
+    "gujarati_name": "એવરેસ્ટ ચિકન ૫ વાળું",
+    "search_name": "Avrest chikan 5 valu",
+    "price_paise": 24000
+  },
+  {
+    "id": 9,
+    "gujarati_name": "એવરેસ્ટ ચિકન ૫૦ ગ્રામ",
+    "search_name": "Avrest chikan 50 gram",
+    "price_paise": 39000
+  },
+  {
+    "id": 10,
+    "gujarati_name": "એવરેસ્ટ મીટ ૫૦ ગ્રામ",
+    "search_name": "Avrest meet 50 gram",
+    "price_paise": 42000
+  },
+  {
+    "id": 11,
+    "gujarati_name": "એવરેસ્ટ મીટ ૧૦ વાળું",
+    "search_name": "Avrest meet 10 valu",
+    "price_paise": 23000
+  },
+  {
+    "id": 12,
+    "gujarati_name": "એવરેસ્ટ ચિકન ૧૦ વાળું",
+    "search_name": "Avrest chikan 10 valu",
+    "price_paise": 23000
+  },
+  {
+    "id": 13,
+    "gujarati_name": "કિસમીસ",
+    "search_name": "kismis",
+    "price_paise": 40000
+  },
+  {
+    "id": 14,
+    "gujarati_name": "કિસમીસ નીચી",
+    "search_name": "kismis  nichi",
+    "price_paise": 38000
+  },
+  {
+    "id": 15,
+    "gujarati_name": "કિસમીસ ઊંચી",
+    "search_name": "kismis  unchi",
+    "price_paise": 44000
+  },
+  {
+    "id": 16,
+    "gujarati_name": "પાપડ ૧૦૦ ગ્રામ",
+    "search_name": "papad 100 gram",
+    "price_paise": 2200
+  },
+  {
+    "id": 17,
+    "gujarati_name": "પાપડ ૨૦૦ ગ્રામ",
+    "search_name": "papad 200 gram",
+    "price_paise": 4400
+  },
+  {
+    "id": 18,
+    "gujarati_name": "પાપડ  ૧૦ વાળા બાંધો",
+    "search_name": "papad 10 vala",
+    "price_paise": 16000
+  },
+  {
+    "id": 19,
+    "gujarati_name": "હાથી ચિકન ૫૦ ગ્રામ",
+    "search_name": "hathi chikan 50 gram",
+    "price_paise": 28000
+  },
+  {
+    "id": 20,
+    "gujarati_name": "હાથી મીટ ૫૦ ગ્રામ",
+    "search_name": "hathi meet 50 gram",
+    "price_paise": 28000
+  },
+  {
+    "id": 21,
+    "gujarati_name": "હાથી પાણીપુરી",
+    "search_name": "hathi panipuri",
+    "price_paise": 30000
+  },
+  {
+    "id": 22,
+    "gujarati_name": "હાથી સાંભાર",
+    "search_name": "hathi sambhar",
+    "price_paise": 30000
+  },
+  {
+    "id": 23,
+    "gujarati_name": "હાથી કિચન કિંગ",
+    "search_name": "hathi kitchen king",
+    "price_paise": 30000
+  },
+  {
+    "id": 24,
+    "gujarati_name": "હાથી છોલે",
+    "search_name": "hathi chole",
+    "price_paise": 30000
+  },
+  {
+    "id": 25,
+    "gujarati_name": "હાથી ગરમ",
+    "search_name": "hathi garam",
+    "price_paise": 22000
+  },
+  {
+    "id": 26,
+    "gujarati_name": "હાથી ચા મસાલો",
+    "search_name": "hathi cha masalo",
+    "price_paise": 30000
+  },
+  {
+    "id": 27,
+    "gujarati_name": "હાથી સુંઠ પાઉડર",
+    "search_name": "hathi sunth powder",
+    "price_paise": 30000
+  },
+  {
+    "id": 28,
+    "gujarati_name": "હાથી પાઉંભાજી",
+    "search_name": "hathi pavbhaji",
+    "price_paise": 30000
+  },
+  {
+    "id": 29,
+    "gujarati_name": "હાથી તીખા પાઉડર",
+    "search_name": "hathi tikha powder",
+    "price_paise": 60000
+  },
+  {
+    "id": 30,
+    "gujarati_name": "હાથી જીરા પાઉડર",
+    "search_name": "hathi jira powder",
+    "price_paise": 28000
+  },
+  {
+    "id": 31,
+    "gujarati_name": "હાથી સબજી",
+    "search_name": "hathi sabji",
+    "price_paise": 22000
+  },
+  {
+    "id": 32,
+    "gujarati_name": "હાથી ચિલી પાવડર ૧૦૦ ગ્રામ",
+    "search_name": "hathi chili powder 100 gram",
+    "price_paise": 30000
+  },
+  {
+    "id": 33,
+    "gujarati_name": "મેગી કાર્ટૂન",
+    "search_name": "Maggie kartun",
+    "price_paise": 95000
+  },
+  {
+    "id": 34,
+    "gujarati_name": "સેવ કાર્ટૂન ૫૦ નંગ",
+    "search_name": "sev kartun 50 piece",
+    "price_paise": 32000
+  },
+  {
+    "id": 35,
+    "gujarati_name": "સેવ કાર્ટૂન ૧૦૦ નંગ",
+    "search_name": "sev kartun 50 piece",
+    "price_paise": 62000
+  },
+  {
+    "id": 36,
+    "gujarati_name": "સેવ ગુલસન",
+    "search_name": "sev gulsan",
+    "price_paise": 48000
+  },
+  {
+    "id": 37,
+    "gujarati_name": "સોયા વળી કાર્ટૂન ૨૪ કેરેટ",
+    "search_name": "soya vali kartun 24 karat",
+    "price_paise": 140000
+  },
+  {
+    "id": 38,
+    "gujarati_name": "ડબલ સેવન ફિશ મસાલો ૧ બોક્સ",
+    "search_name": "double seven fish masalo",
+    "price_paise": 14000
+  },
+  {
+    "id": 39,
+    "gujarati_name": "હાથી રેગ્યુલર મરચું ૧૦૦ વાળું",
+    "search_name": "hathi marchu 100 valu",
+    "price_paise": 48000
+  },
+  {
+    "id": 40,
+    "gujarati_name": "હાથી રેગ્યુલર મરચું ૨૦૦ વાળું",
+    "search_name": "hathi marchu 200 valu",
+    "price_paise": 48000
+  },
+  {
+    "id": 41,
+    "gujarati_name": "હાથી રેગ્યુલર મરચું ૫૦૦ વાળું",
+    "search_name": "hathi marchu 500 valu",
+    "price_paise": 48000
+  },
+  {
+    "id": 42,
+    "gujarati_name": "હાથી હળદર ૧૦૦ વાળું",
+    "search_name": "hathi haldar 100 valu",
+    "price_paise": 33000
+  },
+  {
+    "id": 43,
+    "gujarati_name": "હાથી હળદર ૨૦૦ વાળું",
+    "search_name": "hathi haldar 200 valu",
+    "price_paise": 33000
+  },
+  {
+    "id": 44,
+    "gujarati_name": "હાથી હળદર ૫૦૦ વાળું",
+    "search_name": "hathi haldar 500 valu",
+    "price_paise": 33000
+  },
+  {
+    "id": 45,
+    "gujarati_name": "હાથી ધાણાજીરું ૧૦૦ વાળું",
+    "search_name": "hathi dhanajiru 100 valu",
+    "price_paise": 30000
+  },
+  {
+    "id": 46,
+    "gujarati_name": "હાથી ધાણાજીરું ૨૦૦ વાળું",
+    "search_name": "hathi dhanajiru 200 valu",
+    "price_paise": 30000
+  },
+  {
+    "id": 47,
+    "gujarati_name": "હાથી ધાણાજીરું ૫૦૦ વાળું",
+    "search_name": "hathi dhanajiru 500 valu",
+    "price_paise": 30000
+  },
+  {
+    "id": 48,
+    "gujarati_name": "હાથી એક્સ્ટ્રા હોટ ૧૦૦ ગ્રામ",
+    "search_name": "hathi extra hot 100 valu",
+    "price_paise": 35000
+  },
+  {
+    "id": 49,
+    "gujarati_name": "હાથી એક્સ્ટ્રા હોટ ૫૦૦ ગ્રામ",
+    "search_name": "hathi extra hot 500 valu",
+    "price_paise": 35000
+  },
+  {
+    "id": 50,
+    "gujarati_name": "હાથી કાશ્મીરી ૫૦૦ ગ્રામ",
+    "search_name": "hathi kasmiri 500 gram",
+    "price_paise": 70000
+  },
+  {
+    "id": 51,
+    "gujarati_name": "હાથી કાશ્મીરી ૨૦૦ ગ્રામ",
+    "search_name": "hathi kasmiri 200 gram",
+    "price_paise": 70000
+  },
+  {
+    "id": 52,
+    "gujarati_name": "હાથી  ઊંચી હળદર ૫૦૦ ગ્રામ",
+    "search_name": "hathi unchi haldar 500 gram",
+    "price_paise": 35000
+  },
+  {
+    "id": 53,
+    "gujarati_name": "હાથી રાજગરાનો લોટ ૨૦૦ ગ્રામ",
+    "search_name": "hathi rajgro lot 200 gram",
+    "price_paise": 22000
+  },
+  {
+    "id": 54,
+    "gujarati_name": "હાથી સંચર બાંધો",
+    "search_name": "hathi sanchar bandho",
+    "price_paise": 14000
+  },
+  {
+    "id": 55,
+    "gujarati_name": "હાથી સંચર ૧ કિલો",
+    "search_name": "hathi sanchar 1 kg",
+    "price_paise": 8000
+  },
+  {
+    "id": 56,
+    "gujarati_name": "હાથી સિંધાલુ બાંધો",
+    "search_name": "hathi sindhalu",
+    "price_paise": 14000
+  },
+  {
+    "id": 57,
+    "gujarati_name": "હાથી સિંધાલુ ૧ કિલો",
+    "search_name": "hathi sindhalu 1 kg",
+    "price_paise": 8000
+  },
+  {
+    "id": 58,
+    "gujarati_name": "હાથી આચાર મસાલો ૨૦૦ ગ્રામ",
+    "search_name": "hathi achar masalo 200 gram",
+    "price_paise": 38000
+  },
+  {
+    "id": 59,
+    "gujarati_name": "હાથી ગોળકેરી ૨૦૦ ગ્રામ",
+    "search_name": "hathi golkeri 200 gram",
+    "price_paise": 38000
+  },
+  {
+    "id": 60,
+    "gujarati_name": "એવરેસ્ટ ચિકન ૧૦૦ ગ્રામ",
+    "search_name": "Avrest chikan 100 gram",
+    "price_paise": 85000
+  },
+  {
+    "id": 61,
+    "gujarati_name": "એવરેસ્ટ મીટ ૧૦૦ ગ્રામ",
+    "search_name": "Avrest meet 100 gram",
+    "price_paise": 85000
+  },
+  {
+    "id": 62,
+    "gujarati_name": "એવરેસ્ટ સબજી ૧૦૦ ગ્રામ",
+    "search_name": "Avrest sabji 100 gram",
+    "price_paise": 78000
+  },
+  {
+    "id": 63,
+    "gujarati_name": "એવરેસ્ટ ગરમ ૧૦૦ ગ્રામ",
+    "search_name": "Avrest garam 100 gram",
+    "price_paise": 95000
+  },
+  {
+    "id": 64,
+    "gujarati_name": "એવરેસ્ટ કાશ્મીરી ૫૦ ગ્રામ",
+    "search_name": "Avrest Kashmiri 50 gram",
+    "price_paise": 50000
+  },
+  {
+    "id": 65,
+    "gujarati_name": "એવરેસ્ટ કેસર",
+    "search_name": "Avrest kesar",
+    "price_paise": 18000
+  },
+  {
+    "id": 66,
+    "gujarati_name": "એવરેસ્ટ ફિશ કાર્ટૂન",
+    "search_name": "Avrest fish kartun",
+    "price_paise": 480000
+  },
+  {
+    "id": 67,
+    "gujarati_name": "ઘી ૧૦૦ ગ્રામ",
+    "search_name": "ghee 100 gram",
+    "price_paise": 4500
+  },
+  {
+    "id": 68,
+    "gujarati_name": "ઘી ૨૦૦ ગ્રામ",
+    "search_name": "ghee 200 gram",
+    "price_paise": 8500
+  },
+  {
+    "id": 69,
+    "gujarati_name": "ઘી ૫૦૦ ગ્રામ",
+    "search_name": "ghee 00 gram",
+    "price_paise": 20000
+  },
+  {
+    "id": 70,
+    "gujarati_name": "તપકીર ૧ કિલો",
+    "search_name": "tapkir 1 kg",
+    "price_paise": 6000
+  },
+  {
+    "id": 71,
+    "gujarati_name": "મુખવાસ ખારો ૧ કિલો",
+    "search_name": "mukhvas kharo 1 kg",
+    "price_paise": 20000
+  },
+  {
+    "id": 72,
+    "gujarati_name": "મુખવાસ કાળો ૧ કિલો",
+    "search_name": "mukhvas kalo 1 kg",
+    "price_paise": 12000
+  },
+  {
+    "id": 73,
+    "gujarati_name": "અથાણા ૨૦૦ ગ્રામ",
+    "search_name": "athana 200 gram",
+    "price_paise": 3000
+  },
+  {
+    "id": 74,
+    "gujarati_name": "અથાણા ૪૦૦ ગ્રામ",
+    "search_name": "athana 400 gram",
+    "price_paise": 5000
+  },
+  {
+    "id": 75,
+    "gujarati_name": "અથાણા ૧ કિલો",
+    "search_name": "athana 1 kg",
+    "price_paise": 10000
+  },
+  {
+    "id": 76,
+    "gujarati_name": "અથાણા ગોળ કેરી ૫૦૦ ગ્રામ",
+    "search_name": "athana gol keri 500 gram",
+    "price_paise": 8000
+  },
+  {
+    "id": 77,
+    "gujarati_name": "સોસ બાંધો",
+    "search_name": "sos bandho",
+    "price_paise": 14000
+  },
+  {
+    "id": 78,
+    "gujarati_name": "સાંબો ૨૦૦ ગ્રામ વાળો",
+    "search_name": "sambo 200 gram",
+    "price_paise": 20000
+  },
+  {
+    "id": 79,
+    "gujarati_name": "સાંબો ૫૦૦ ગ્રામ",
+    "search_name": "sambo 500 gram",
+    "price_paise": 20000
+  },
+  {
+    "id": 80,
+    "gujarati_name": "લસણ પેસ્ટ ૧૦ વાળી",
+    "search_name": "lasan paste 10 vali",
+    "price_paise": 9000
+  },
+  {
+    "id": 81,
+    "gujarati_name": "લસણ પેસ્ટ ૫ વાળી",
+    "search_name": "lasan paste 10 vali",
+    "price_paise": 8000
+  },
+  {
+    "id": 82,
+    "gujarati_name": "જીરું ૧ કિલો વાળું",
+    "search_name": "jiru 1 kg",
+    "price_paise": 25000
+  },
+  {
+    "id": 83,
+    "gujarati_name": "જીરું નીચું ૧ કિલો",
+    "search_name": "jiru nichu 1 kg",
+    "price_paise": 24000
+  },
+  {
+    "id": 84,
+    "gujarati_name": "રવો ૫૦૦ ગ્રામ",
+    "search_name": "ravo 500 gram",
+    "price_paise": 2300
+  },
+  {
+    "id": 85,
+    "gujarati_name": "મેંદો ૫૦૦ ગ્રામ",
+    "search_name": "mendo 500 gram",
+    "price_paise": 2200
+  },
+  {
+    "id": 86,
+    "gujarati_name": "હાજીનોમોટો ૫૦૦ ગ્રામ",
+    "search_name": "haji no moto 500 gram",
+    "price_paise": 16000
+  },
+  {
+    "id": 87,
+    "gujarati_name": "લિંબુના ફૂલ ૧ કિલો",
+    "search_name": "limbu na ful 1 kg",
+    "price_paise": 11000
+  },
+  {
+    "id": 88,
+    "gujarati_name": "ટાટાના સોડા ૧ બાંધો",
+    "search_name": "tata soda 1 bandho",
+    "price_paise": 22000
+  },
+  {
+    "id": 89,
+    "gujarati_name": "અથાણા મરચાવાળું",
+    "search_name": "athana marcha valu",
+    "price_paise": 6000
+  },
+  {
+    "id": 90,
+    "gujarati_name": "સોડા એસ બ્લ્યુ",
+    "search_name": "soda s blue",
+    "price_paise": 14000
+  },
+  {
+    "id": 91,
+    "gujarati_name": "સોડા સુરભિ ૧૦ વાળા ગુલાબી",
+    "search_name": "soda surbhi 10  vala gulabi",
+    "price_paise": 13000
+  },
+  {
+    "id": 92,
+    "gujarati_name": "અબિલ બાંધો",
+    "search_name": "abil bandho",
+    "price_paise": 9000
+  },
+  {
+    "id": 93,
+    "gujarati_name": "ગુલાલ બાંધો",
+    "search_name": "gulal badho",
+    "price_paise": 9000
+  },
+  {
+    "id": 94,
+    "gujarati_name": "કુંકુમ બાંધો",
+    "search_name": "Kumkum bandho",
+    "price_paise": 9000
+  },
+  {
+    "id": 95,
+    "gujarati_name": "સિંદૂર બાંધો",
+    "search_name": "sindoor bandho",
+    "price_paise": 9000
+  },
+  {
+    "id": 96,
+    "gujarati_name": "કલર ૧૦૦ ગ્રામ",
+    "search_name": "color 100 gram",
+    "price_paise": 3500
+  },
+  {
+    "id": 97,
+    "gujarati_name": "કલર ૫ વાળા",
+    "search_name": "color 5 vala",
+    "price_paise": 4000
+  },
+  {
+    "id": 98,
+    "gujarati_name": "મેગી મસાલો બાંધો",
+    "search_name": "Maggie masalo bandho",
+    "price_paise": 16000
+  },
+  {
+    "id": 99,
+    "gujarati_name": "મેગી મસાલા ૧૦ વાળી  પટ્ટી",
+    "search_name": "Maggie masalo 10 vali pati",
+    "price_paise": 4000
+  },
+  {
+    "id": 100,
+    "gujarati_name": "પાસ્તા મસાલા બાંધો",
+    "search_name": "pasta masalo bandho",
+    "price_paise": 16000
+  },
+  {
+    "id": 101,
+    "gujarati_name": "પાસ્તા મસાલા ૧૦ વાળી પટ્ટી",
+    "search_name": "pasta masala 10 vali pati",
+    "price_paise": 4000
+  },
+  {
+    "id": 102,
+    "gujarati_name": "જલજીરા ૫ વાળી બાંધો",
+    "search_name": "jaljira 5 vali bandho",
+    "price_paise": 12000
+  },
+  {
+    "id": 103,
+    "gujarati_name": "જલજીરા ૫ વાળી પટ્ટી",
+    "search_name": "jaljira 5 vali pati",
+    "price_paise": 4000
+  },
+  {
+    "id": 104,
+    "gujarati_name": "જલજીરા ૧ વાળી બાંધો",
+    "search_name": "jaljira 1 vali bandho",
+    "price_paise": 4000
+  },
+  {
+    "id": 105,
+    "gujarati_name": "જાનકી કાજુ કરી નંગ",
+    "search_name": "janki kaju kari piece",
+    "price_paise": 4000
+  },
+  {
+    "id": 106,
+    "gujarati_name": "જાનકી કાજુ કરી બાંધો",
+    "search_name": "janki kaju kari bandho",
+    "price_paise": 44000
+  },
+  {
+    "id": 107,
+    "gujarati_name": "જાનકી પનીર ટિકા  નંગ",
+    "search_name": "janki panir tika piece",
+    "price_paise": 4000
+  },
+  {
+    "id": 108,
+    "gujarati_name": "જાનકી પનીર ટિકા  બાંધો",
+    "search_name": "janki panir tika bandho",
+    "price_paise": 44000
+  },
+  {
+    "id": 109,
+    "gujarati_name": "ગુંદગાંગડા ૧ કિલો",
+    "search_name": "gund gangada 1 kg",
+    "price_paise": 28000
+  },
+  {
+    "id": 110,
+    "gujarati_name": "તકમરિયા ૧ કિલો",
+    "search_name": "takmariya 1 kg",
+    "price_paise": 28000
+  },
+  {
+    "id": 111,
+    "gujarati_name": "હિમેજ",
+    "search_name": "himej",
+    "price_paise": 34000
+  },
+  {
+    "id": 112,
+    "gujarati_name": "પિસ્તા ૨૫૦ ગ્રામ",
+    "search_name": "pista 250 gram",
+    "price_paise": 38000
+  },
+  {
+    "id": 113,
+    "gujarati_name": "ગુંગળ",
+    "search_name": "gugal",
+    "price_paise": 30000
+  },
+  {
+    "id": 114,
+    "gujarati_name": "ધૂપ",
+    "search_name": "dhup",
+    "price_paise": 20000
+  },
+  {
+    "id": 115,
+    "gujarati_name": "ધૂપ દશાંગ ડબી",
+    "search_name": "dhup dashang dabi",
+    "price_paise": 5000
+  },
+  {
+    "id": 116,
+    "gujarati_name": "અંજીર ૨૫૦ ગ્રામ",
+    "search_name": "anjir 250 gram",
+    "price_paise": 30000
+  },
+  {
+    "id": 117,
+    "gujarati_name": "અખરોટ ૨૫૦ ગ્રામ",
+    "search_name": "akhrot 250 gram",
+    "price_paise": 42000
+  },
+  {
+    "id": 118,
+    "gujarati_name": "પાણીપુરી ૧ કિલો",
+    "search_name": "panipuri 1 kg",
+    "price_paise": 8000
+  },
+  {
+    "id": 119,
+    "gujarati_name": "ચાલું હિંગ ડબ્બી",
+    "search_name": "hing chalu dabi",
+    "price_paise": 7000
+  },
+  {
+    "id": 120,
+    "gujarati_name": "રાઈ ૧ કિલો",
+    "search_name": "ray 1 kg",
+    "price_paise": 11000
+  },
+  {
+    "id": 121,
+    "gujarati_name": "વરિયાળી ૧ કિલો",
+    "search_name": "variyali 1 kg",
+    "price_paise": 24000
+  },
+  {
+    "id": 122,
+    "gujarati_name": "મેથી ૧ કિલો",
+    "search_name": "methi 1 kg",
+    "price_paise": 11000
+  },
+  {
+    "id": 123,
+    "gujarati_name": "વરિયાળી ૫૦૦ ગ્રામ",
+    "search_name": "variyali 500 gram",
+    "price_paise": 12000
+  },
+  {
+    "id": 124,
+    "gujarati_name": "મંગરેલા ૧ કિલો",
+    "search_name": "mangarela 1 kg",
+    "price_paise": 28000
+  },
+  {
+    "id": 125,
+    "gujarati_name": "સરસવ ૧ કિલો",
+    "search_name": "sarsav 1 kg",
+    "price_paise": 14000
+  },
+  {
+    "id": 126,
+    "gujarati_name": "રાઈ કુરિયા ૧ કિલો",
+    "search_name": "ray kuriya 1 kg",
+    "price_paise": 14000
+  },
+  {
+    "id": 127,
+    "gujarati_name": "મેથી કુરિયા ૧ કિલો",
+    "search_name": "methi kuriya 1 kg",
+    "price_paise": 18000
+  },
+  {
+    "id": 128,
+    "gujarati_name": "ધાણા કુરિયા ૧ કિલો",
+    "search_name": "dhana kuriya 1 kg",
+    "price_paise": 20000
+  },
+  {
+    "id": 129,
+    "gujarati_name": "ગુંદ ૧ કિલો",
+    "search_name": "gund 1 kg",
+    "price_paise": 24000
+  },
+  {
+    "id": 130,
+    "gujarati_name": "જાડું ખમણ ૧ કિલો",
+    "search_name": "jadu khaman  1kg",
+    "price_paise": 26000
+  },
+  {
+    "id": 131,
+    "gujarati_name": "જીણુ ખમણ ૧ કિલો",
+    "search_name": "jinu khaman 1 kg",
+    "price_paise": 29000
+  },
+  {
+    "id": 132,
+    "gujarati_name": "સુવાદાણા ૫૦૦ ગ્રામ",
+    "search_name": "suvadana 500 gram",
+    "price_paise": 8000
+  },
+  {
+    "id": 133,
+    "gujarati_name": "અજમો ૫૦૦ ગ્રામ",
+    "search_name": "ajmo 500 gram",
+    "price_paise": 9000
+  },
+  {
+    "id": 134,
+    "gujarati_name": "સાબુદાણા ૧ કિલો",
+    "search_name": "sabudana 1 kg",
+    "price_paise": 7000
+  },
+  {
+    "id": 135,
+    "gujarati_name": "ધાણી ૧ કિલો",
+    "search_name": "dhana 1 kg",
+    "price_paise": 18000
+  },
+  {
+    "id": 136,
+    "gujarati_name": "કાળા તલ ૧ કિલો",
+    "search_name": "kala tal 1 kg",
+    "price_paise": 26000
+  },
+  {
+    "id": 137,
+    "gujarati_name": "સફેદ તલ ૧ કિલો",
+    "search_name": "safed tal 1 kg",
+    "price_paise": 16000
+  },
+  {
+    "id": 138,
+    "gujarati_name": "લાલ તલ ૧ કિલો",
+    "search_name": "lal tal 1 kg",
+    "price_paise": 20000
+  },
+  {
+    "id": 139,
+    "gujarati_name": "ગંત્રી સફેદ તલ ૧ કિલો",
+    "search_name": "gantry safed tal 1 kg",
+    "price_paise": 17000
+  },
+  {
+    "id": 140,
+    "gujarati_name": "કાળીદ્રાક્ષ ૨૫૦ ગ્રામ",
+    "search_name": "kali draksh 250 gram",
+    "price_paise": 13000
+  },
+  {
+    "id": 141,
+    "gujarati_name": "કાળીદ્રાક્ષ ઊંચી ૨૫૦ ગ્રામ",
+    "search_name": "kali draksh unchi 250 gram",
+    "price_paise": 14000
+  },
+  {
+    "id": 142,
+    "gujarati_name": "મહાલક્ષ્મી ૧૦ વાળો",
+    "search_name": "mahalaxmi 10 valo",
+    "price_paise": 38000
+  },
+  {
+    "id": 143,
+    "gujarati_name": "મહાલક્ષ્મી ૫૦ વાળો",
+    "search_name": "mahalaxmi 50 valo",
+    "price_paise": 36000
+  },
+  {
+    "id": 144,
+    "gujarati_name": "મહાલક્ષ્મી ૧૦૦ વાળો",
+    "search_name": "mahalaxmi 100 valo",
+    "price_paise": 36000
+  },
+  {
+    "id": 145,
+    "gujarati_name": "મહાલક્ષ્મી ૨૦૦ વાળો",
+    "search_name": "mahalaxmi 200 valo",
+    "price_paise": 36000
+  },
+  {
+    "id": 146,
+    "gujarati_name": "પાસ્તા ૧ કિલો",
+    "search_name": "pasta 1 kg",
+    "price_paise": 6000
+  },
+  {
+    "id": 147,
+    "gujarati_name": "પાસ્તા બાંધો",
+    "search_name": "pasta bandho",
+    "price_paise": 16000
+  },
+  {
+    "id": 148,
+    "gujarati_name": "જિમરી મસાલા",
+    "search_name": "jimri masalo",
+    "price_paise": 4000
+  },
+  {
+    "id": 149,
+    "gujarati_name": "ચા ૧૦ વાળી",
+    "search_name": "cha 10 vali",
+    "price_paise": 16000
+  },
+  {
+    "id": 150,
+    "gujarati_name": "ચા ૨૦ વાળી",
+    "search_name": "cha 20 vali",
+    "price_paise": 16000
+  },
+  {
+    "id": 151,
+    "gujarati_name": "આંબલી ૧ કિલો",
+    "search_name": "ambli 1 kg",
+    "price_paise": 15000
+  },
+  {
+    "id": 152,
+    "gujarati_name": "સાકર ચોરસી ૧ કિલો",
+    "search_name": "sakar chorsi 1 kg",
+    "price_paise": 7000
+  },
+  {
+    "id": 153,
+    "gujarati_name": "સાકર મોટી ૧ કિલો",
+    "search_name": "sakar moti 1 kg",
+    "price_paise": 8000
+  },
+  {
+    "id": 154,
+    "gujarati_name": "મખાના ૨૫૦ ગ્રામ",
+    "search_name": "makhana 250 gram",
+    "price_paise": 22000
+  },
+  {
+    "id": 155,
+    "gujarati_name": "સતુ ૨ કિલો",
+    "search_name": "satu 2 kg",
+    "price_paise": 24000
+  },
+  {
+    "id": 156,
+    "gujarati_name": "તીખા ૧ કિલો",
+    "search_name": "tikha 1 kg",
+    "price_paise": 80000
+  },
+  {
+    "id": 157,
+    "gujarati_name": "સતુ ૧ કિલો",
+    "search_name": "satu 1 kg",
+    "price_paise": 12000
+  },
+  {
+    "id": 158,
+    "gujarati_name": "તજ ૧ કિલો",
+    "search_name": "taj 1 kg",
+    "price_paise": 34000
+  },
+  {
+    "id": 159,
+    "gujarati_name": "તજ ૫૦૦ ગ્રામ",
+    "search_name": "taj 500 gram",
+    "price_paise": 17000
+  },
+  {
+    "id": 160,
+    "gujarati_name": "તજ ૨૫૦ ગ્રામ",
+    "search_name": "taj 250 gram",
+    "price_paise": 9000
+  },
+  {
+    "id": 161,
+    "gujarati_name": "બાદિયા ૧ કિલો",
+    "search_name": "badiya 1 kg",
+    "price_paise": 60000
+  },
+  {
+    "id": 162,
+    "gujarati_name": "બાદિયા ૫૦૦ ગ્રામ",
+    "search_name": "badiya 500 gram",
+    "price_paise": 30000
+  },
+  {
+    "id": 163,
+    "gujarati_name": "બાદિયા ૨૫૦ ગ્રામ",
+    "search_name": "badiya 250 gram",
+    "price_paise": 15000
+  },
+  {
+    "id": 164,
+    "gujarati_name": "લવિંગ ૧ કિલો",
+    "search_name": "laving 1 kg",
+    "price_paise": 92000
+  },
+  {
+    "id": 165,
+    "gujarati_name": "લવિંગ ૫૦૦ ગ્રામ",
+    "search_name": "laving 500 gram",
+    "price_paise": 46000
+  },
+  {
+    "id": 166,
+    "gujarati_name": "લવિંગ ૨૫૦ ગ્રામ",
+    "search_name": "laving 250 gram",
+    "price_paise": 24000
+  },
+  {
+    "id": 167,
+    "gujarati_name": "તમાકુ બાંધો",
+    "search_name": "tamaku  bandho",
+    "price_paise": 15000
+  },
+  {
+    "id": 168,
+    "gujarati_name": "તમાકુ ૧ કિલો",
+    "search_name": "tamaku 1 kg",
+    "price_paise": 34000
+  },
+  {
+    "id": 169,
+    "gujarati_name": "સાકરિયા નાના",
+    "search_name": "sakariya nana",
+    "price_paise": 4000
+  },
+  {
+    "id": 170,
+    "gujarati_name": "સાકરિયા મોટા",
+    "search_name": "sakariya mota",
+    "price_paise": 4000
+  },
+  {
+    "id": 171,
+    "gujarati_name": "ટોપરા ૧ કિલો",
+    "search_name": "topra 1 kg",
+    "price_paise": 48000
+  },
+  {
+    "id": 172,
+    "gujarati_name": "ખારેક નીચી ૧ કિલો",
+    "search_name": "kharek nichi 1 kg",
+    "price_paise": 20000
+  },
+  {
+    "id": 173,
+    "gujarati_name": "ખારેક ઊંચી ૧ કિલો",
+    "search_name": "kharek unchi  1 kg",
+    "price_paise": 23000
+  },
+  {
+    "id": 174,
+    "gujarati_name": "ખારેક ૫૦૦ ગ્રામ",
+    "search_name": "kharek 500 gram",
+    "price_paise": 30000
+  },
+  {
+    "id": 175,
+    "gujarati_name": "લસણ પેસ્ટ ૫ વાળી",
+    "search_name": "lasan paste 5 vali",
+    "price_paise": 7000
+  },
+  {
+    "id": 176,
+    "gujarati_name": "લસણ પેસ્ટ ૧૦ વાળી, ગુલાબી",
+    "search_name": "lasan paste 10 vali gulabi",
+    "price_paise": 9000
+  },
+  {
+    "id": 177,
+    "gujarati_name": "ભૂતડો",
+    "search_name": "bhutdo",
+    "price_paise": 3000
+  },
+  {
+    "id": 178,
+    "gujarati_name": "સાગર ૫૦૦ ગ્રામ",
+    "search_name": "sagar 500 gram",
+    "price_paise": 34000
+  },
+  {
+    "id": 179,
+    "gujarati_name": "સાગર ૨૦૦ ગ્રામ",
+    "search_name": "sagar 200 gram",
+    "price_paise": 34000
+  },
+  {
+    "id": 180,
+    "gujarati_name": "ટોપ ૫૦ વાળું",
+    "search_name": "top 50 valu",
+    "price_paise": 11000
+  },
+  {
+    "id": 181,
+    "gujarati_name": "ટોપ ૧૦૦ વાળું",
+    "search_name": "top 100 valu",
+    "price_paise": 11000
+  },
+  {
+    "id": 182,
+    "gujarati_name": "સતું બિહારી  બાંધો",
+    "search_name": "satu Bihari bandho",
+    "price_paise": 24000
+  },
+  {
+    "id": 183,
+    "gujarati_name": "લાજવાબ",
+    "search_name": "lajavab",
+    "price_paise": 10000
+  },
+  {
+    "id": 184,
+    "gujarati_name": "ઘઉ ફાડા ૫૦૦ પેકેટ",
+    "search_name": "ghav fada 500 packet",
+    "price_paise": 12000
+  },
+  {
+    "id": 185,
+    "gujarati_name": "સાજીના ફૂલ",
+    "search_name": "sanji na ful",
+    "price_paise": 8000
+  },
+  {
+    "id": 186,
+    "gujarati_name": "વળી થેલી",
+    "search_name": "vali theli",
+    "price_paise": 24000
+  },
+  {
+    "id": 187,
+    "gujarati_name": "વળી ૧૦ વાળી પટ્ટી",
+    "search_name": "vali 10 vali pati",
+    "price_paise": 7000
+  },
+  {
+    "id": 188,
+    "gujarati_name": "એરોપ્લેન હિંગ ૫૦ ગ્રામ પાઉચ",
+    "search_name": "Aro hing 50 gram pounch",
+    "price_paise": 40000
+  },
+  {
+    "id": 189,
+    "gujarati_name": "એરોપ્લેન હિંગ ૧૦૦ ગ્રામ પાઉચ",
+    "search_name": "Aro hing 100 gram pounch",
+    "price_paise": 40000
+  },
+  {
+    "id": 190,
+    "gujarati_name": "એરોપ્લેન હિંગ ૨૦૦ ગ્રામ પાઉચ",
+    "search_name": "Aro hing 200 gram pounch",
+    "price_paise": 38000
+  },
+  {
+    "id": 191,
+    "gujarati_name": "એરોપ્લેન હિંગ ૫૦ ગ્રામ ડબી",
+    "search_name": "Aro hing 50 gram dabi",
+    "price_paise": 32000
+  },
+  {
+    "id": 192,
+    "gujarati_name": "એરોપ્લેન હિંગ ૧૦૦ ગ્રામ ડબી",
+    "search_name": "Aro hing 50 gram dabi",
+    "price_paise": 32000
+  },
+  {
+    "id": 193,
+    "gujarati_name": "એરોપ્લેન હિંગ ૨૫૦ ગ્રામ ડબી",
+    "search_name": "Aro hing 250 gram dabi",
+    "price_paise": 15000
+  },
+  {
+    "id": 194,
+    "gujarati_name": "એરોપ્લેન ગરમ મસાલો બાંધો",
+    "search_name": "Aro garam masalo bandho",
+    "price_paise": 30000
+  },
+  {
+    "id": 195,
+    "gujarati_name": "નવજીવન હિંગ ડબી ૫૦ ગ્રામ",
+    "search_name": "navjivan hing dabi 50 gram",
+    "price_paise": 32000
+  },
+  {
+    "id": 196,
+    "gujarati_name": "નવજીવન હિંગ ૧૦૦ ગ્રામ",
+    "search_name": "navjivan hing dabi 100 gram",
+    "price_paise": 32000
+  },
+  {
+    "id": 197,
+    "gujarati_name": "નવજીવન હિંગ ૨૦૦ ગ્રામ",
+    "search_name": "navjivan hing dabi 200 gram",
+    "price_paise": 13000
+  },
+  {
+    "id": 198,
+    "gujarati_name": "નવજીવન હિંગ ૫૦૦ ગ્રામ",
+    "search_name": "navjivan hing dabi 500 gram",
+    "price_paise": 32000
+  },
+  {
+    "id": 199,
+    "gujarati_name": "કાજુ  ૨૫૦ ગ્રામ",
+    "search_name": "kaju 250 gram",
+    "price_paise": 23000
+  },
+  {
+    "id": 200,
+    "gujarati_name": "કાજુ  ૫૦૦ ગ્રામ",
+    "search_name": "kaju 500 gram",
+    "price_paise": 44000
+  },
+  {
+    "id": 201,
+    "gujarati_name": "કાજુ  ૧ કિલો",
+    "search_name": "kaju 1 kg",
+    "price_paise": 88000
+  },
+  {
+    "id": 202,
+    "gujarati_name": "બદામ ૨૫૦ ગ્રામ",
+    "search_name": "badam 250 gram",
+    "price_paise": 102000
+  },
+  {
+    "id": 203,
+    "gujarati_name": "બદામ ૫૦૦ ગ્રામ",
+    "search_name": "badam 500 gram",
+    "price_paise": 51000
+  },
+  {
+    "id": 204,
+    "gujarati_name": "બદામ ૧ કિલો",
+    "search_name": "badam 1 kg",
+    "price_paise": 26000
+  },
+  {
+    "id": 205,
+    "gujarati_name": "કાજુ ગોવા ૨૫૦ ગ્રામ",
+    "search_name": "kaju gova 250 gram",
+    "price_paise": 96000
+  },
+  {
+    "id": 206,
+    "gujarati_name": "કાજુ ગોવા ૫૦૦ ગ્રામ",
+    "search_name": "kaju gova 500 gram",
+    "price_paise": 48000
+  },
+  {
+    "id": 207,
+    "gujarati_name": "કાજુ ગોવા ૧ કિલો",
+    "search_name": "kaju gova 1 kg",
+    "price_paise": 96000
+  },
+  {
+    "id": 208,
+    "gujarati_name": "કાજુ ઊંચા ૨૫૦ ગ્રામ",
+    "search_name": "kaju uncha 250 gram",
+    "price_paise": 26000
+  },
+  {
+    "id": 209,
+    "gujarati_name": "કાજુ ઊંચા ૫૦૦ ગ્રામ",
+    "search_name": "kaju uncha 500 gram",
+    "price_paise": 51000
+  },
+  {
+    "id": 210,
+    "gujarati_name": "કાજુ ઊંચા ૧ કિલો",
+    "search_name": "kaju uncha 1 kg",
+    "price_paise": 102000
+  },
+  {
+    "id": 211,
+    "gujarati_name": "બદામ ઊંચી ૨૫૦ ગ્રામ",
+    "search_name": "badam unhi 250 gram",
+    "price_paise": 28000
+  },
+  {
+    "id": 212,
+    "gujarati_name": "બદામ ઊંચી ૫૦૦ ગ્રામ",
+    "search_name": "badam unhi 500 gram",
+    "price_paise": 55000
+  },
+  {
+    "id": 213,
+    "gujarati_name": "બદામ ઊંચી ૧ કિલો",
+    "search_name": "badam unhi 1 kg",
+    "price_paise": 110000
+  },
+  {
+    "id": 214,
+    "gujarati_name": "કિસમિસ નીચી ૫૦૦ ગ્રામ",
+    "search_name": "kismis nichi 500 gram",
+    "price_paise": 38000
+  },
+  {
+    "id": 215,
+    "gujarati_name": "કિસમિસ ઊંચી ૫૦૦ ગ્રામ",
+    "search_name": "kismis unchi 500 gram",
+    "price_paise": 44000
+  },
+  {
+    "id": 216,
+    "gujarati_name": "કિસમિસ ૫૦૦ ગ્રામ",
+    "search_name": "kismis 500 gram",
+    "price_paise": 40000
+  },
+  {
+    "id": 217,
+    "gujarati_name": "કિસમિસ લૂઝ  ૫૦૦ ગ્રામ",
+    "search_name": "kismis luj 500 gram",
+    "price_paise": 60000
+  },
+  {
+    "id": 218,
+    "gujarati_name": "હળદર ૫૦ વાળું",
+    "search_name": "haldar 50 valu",
+    "price_paise": 28000
+  },
+  {
+    "id": 219,
+    "gujarati_name": "હળદર ૧૦૦ વાળું",
+    "search_name": "haldar 100 valu",
+    "price_paise": 27000
+  },
+  {
+    "id": 220,
+    "gujarati_name": "હળદર ૨૦૦ વાળું",
+    "search_name": "haldar 200 valu",
+    "price_paise": 27000
+  },
+  {
+    "id": 221,
+    "gujarati_name": "હળદર ૫૦૦ વાળું",
+    "search_name": "haldar 500 valu",
+    "price_paise": 27000
+  },
+  {
+    "id": 222,
+    "gujarati_name": "મરચું ૫૦ વાળું",
+    "search_name": "marchu 50 valu",
+    "price_paise": 30000
+  },
+  {
+    "id": 223,
+    "gujarati_name": "મરચું ૧૦૦ વાળું",
+    "search_name": "marchu 100 valu",
+    "price_paise": 29000
+  },
+  {
+    "id": 224,
+    "gujarati_name": "મરચું ૨૦૦ વાળું",
+    "search_name": "marchu 200 valu",
+    "price_paise": 29000
+  },
+  {
+    "id": 225,
+    "gujarati_name": "મરચું ૫૦૦ વાળું",
+    "search_name": "marchu 500 valu",
+    "price_paise": 29000
+  },
+  {
+    "id": 226,
+    "gujarati_name": "ધાણાજીરું ૫૦ વાળું",
+    "search_name": "dhanajiru 50 valu",
+    "price_paise": 17000
+  },
+  {
+    "id": 227,
+    "gujarati_name": "ધાણાજીરું ૧૦૦ વાળું",
+    "search_name": "dhanajiru 100 valu",
+    "price_paise": 16000
+  },
+  {
+    "id": 228,
+    "gujarati_name": "ધાણાજીરું ૨૦૦ વાળું",
+    "search_name": "dhanajiru 200 valu",
+    "price_paise": 16000
+  },
+  {
+    "id": 229,
+    "gujarati_name": "ધાણાજીરું ૫૦૦ વાળું",
+    "search_name": "dhanajiru 500 valu",
+    "price_paise": 16000
+  },
+  {
+    "id": 230,
+    "gujarati_name": "હળદર ૧૦ વાળી",
+    "search_name": "haldar 10 vali",
+    "price_paise": 13000
+  },
+  {
+    "id": 231,
+    "gujarati_name": "મરચું ૧૦ વાળું",
+    "search_name": "marchu 10 valu",
+    "price_paise": 13000
+  },
+  {
+    "id": 232,
+    "gujarati_name": "ધાણાજીરું ૧૦ વાળું",
+    "search_name": "dhanajiru 10 valu",
+    "price_paise": 13000
+  },
+  {
+    "id": 233,
+    "gujarati_name": "ગૂલ",
+    "search_name": "gul",
+    "price_paise": 14000
+  },
+  {
+    "id": 234,
+    "gujarati_name": "ગૂલ મુસા",
+    "search_name": "gul musa",
+    "price_paise": 18000
+  },
+  {
+    "id": 235,
+    "gujarati_name": "ગૂલ એર. ચાંદતારા",
+    "search_name": "gul ar chandtara",
+    "price_paise": 15000
+  },
+  {
+    "id": 236,
+    "gujarati_name": "વળી ૧ કિલો વાળી",
+    "search_name": "vali 1 kg vali",
+    "price_paise": 10000
+  },
+  {
+    "id": 237,
+    "gujarati_name": "વળી ૧૦ કિલો વાળી",
+    "search_name": "vali 10 kg vali",
+    "price_paise": 105000
+  },
+  {
+    "id": 238,
+    "gujarati_name": "વળી ૫ કિલો લૂઝ",
+    "search_name": "vali 5 kilo luj",
+    "price_paise": 55000
+  },
+  {
+    "id": 239,
+    "gujarati_name": "મરચી ૧ કિલો",
+    "search_name": "marchi 1 kg",
+    "price_paise": 28000
+  },
+  {
+    "id": 240,
+    "gujarati_name": "વળી ૫ કિલો નાની",
+    "search_name": "vali 5 kg nani",
+    "price_paise": 55000
+  },
+  {
+    "id": 241,
+    "gujarati_name": "વળી ૫ કિલો મોટી",
+    "search_name": "vali 5 kg moti",
+    "price_paise": 54000
+  },
+  {
+    "id": 242,
+    "gujarati_name": "જાયફળ ૫૦૦ ગ્રામ",
+    "search_name": "jayfal 500 gram",
+    "price_paise": 45000
+  },
+  {
+    "id": 243,
+    "gujarati_name": "જાયફળ ૧ કિલો",
+    "search_name": "jayfal 1 kg",
+    "price_paise": 90000
+  },
+  {
+    "id": 244,
+    "gujarati_name": "હિમેજ ૫૦૦ ગ્રામ",
+    "search_name": "himej 500 gram",
+    "price_paise": 16000
+  },
+  {
+    "id": 245,
+    "gujarati_name": "હિમેજ ૧ કિલો",
+    "search_name": "himej 1 kg",
+    "price_paise": 32000
+  },
+  {
+    "id": 246,
+    "gujarati_name": "તમાલપત્ર ૫૦૦ ગ્રામ",
+    "search_name": "tamalpatr 500 gram",
+    "price_paise": 7000
+  },
+  {
+    "id": 247,
+    "gujarati_name": "તમાલપત્ર ૧ કિલો",
+    "search_name": "tamalpatr 1 kg",
+    "price_paise": 14000
+  },
+  {
+    "id": 248,
+    "gujarati_name": "જાવંત્રી ૨૫૦ ગ્રામ",
+    "search_name": "javantri 250 gram",
+    "price_paise": 55000
+  },
+  {
+    "id": 249,
+    "gujarati_name": "જાવંત્રી ૫૦૦ ગ્રામ",
+    "search_name": "javantri 250 gram",
+    "price_paise": 110000
+  },
+  {
+    "id": 250,
+    "gujarati_name": "જાવંત્રી ૧ કિલો",
+    "search_name": "javantri 1 kg",
+    "price_paise": 220000
+  },
+  {
+    "id": 251,
+    "gujarati_name": "સિંગદાણા",
+    "search_name": "singdana",
+    "price_paise": 14000
+  },
+  {
+    "id": 252,
+    "gujarati_name": "સિંગદાણા ઊંચા",
+    "search_name": "singdana uncha",
+    "price_paise": 16000
+  },
+  {
+    "id": 253,
+    "gujarati_name": "એલચા ૫૦૦ ગ્રામ",
+    "search_name": "alcha 500 gram",
+    "price_paise": 100000
+  },
+  {
+    "id": 254,
+    "gujarati_name": "એલચા ૧ કિલો",
+    "search_name": "alcha  1 kg",
+    "price_paise": 200000
+  },
+  {
+    "id": 255,
+    "gujarati_name": "ખસખસ ૫૦૦ ગ્રામ",
+    "search_name": "khaskhas 500 gram",
+    "price_paise": 48000
+  },
+  {
+    "id": 256,
+    "gujarati_name": "ખસખસ ૨૫૦ ગ્રામ",
+    "search_name": "khaskhas 250 gram",
+    "price_paise": 24000
+  },
+  {
+    "id": 257,
+    "gujarati_name": "ડુગરફૂલ ૨૫૦ ગ્રામ",
+    "search_name": "dagarful 250 gram",
+    "price_paise": 20000
+  },
+  {
+    "id": 258,
+    "gujarati_name": "ડુગરફૂલ ૫૦૦ ગ્રામ",
+    "search_name": "dagarful 500 gram",
+    "price_paise": 37000
+  },
+  {
+    "id": 259,
+    "gujarati_name": "કોકમ ૨૫૦ ગ્રામ",
+    "search_name": "kokam 250 gram",
+    "price_paise": 15000
+  },
+  {
+    "id": 260,
+    "gujarati_name": "કોકમ ૫૦૦ ગ્રામ",
+    "search_name": "kokam 500 gram",
+    "price_paise": 30000
+  },
+  {
+    "id": 261,
+    "gujarati_name": "સૂંઠ ૨૫૦ ગ્રામ",
+    "search_name": "sunth 250 gram",
+    "price_paise": 12000
+  },
+  {
+    "id": 262,
+    "gujarati_name": "સૂંઠ ૫૦૦ ગ્રામ",
+    "search_name": "sunth 500 gram",
+    "price_paise": 24000
+  },
+  {
+    "id": 263,
+    "gujarati_name": "સૂંઠ ૧ કિલો",
+    "search_name": "sunth 1 kg",
+    "price_paise": 48000
+  },
+  {
+    "id": 264,
+    "gujarati_name": "તકમરિયા ૫૦૦ ગ્રામ",
+    "search_name": "takmariya 500 gram",
+    "price_paise": 15000
+  },
+  {
+    "id": 265,
+    "gujarati_name": "તકમરિયા ૧ કિલો",
+    "search_name": "takmariya 1 kg",
+    "price_paise": 28000
+  },
+  {
+    "id": 266,
+    "gujarati_name": "કાળીજીરી ૧ કિલો",
+    "search_name": "kali jiri 1 kg",
+    "price_paise": 30000
+  },
+  {
+    "id": 267,
+    "gujarati_name": "કાળીજીરી ૫૦૦ ગ્રામ",
+    "search_name": "kali jiri 500 gram",
+    "price_paise": 16000
+  },
+  {
+    "id": 268,
+    "gujarati_name": "તીખાની ભૂકી ૫૦૦ ગ્રામ",
+    "search_name": "tikha ni bhuki 500 gram",
+    "price_paise": 36000
+  },
+  {
+    "id": 269,
+    "gujarati_name": "તીખાની ભૂકી ૨૫૦ ગ્રામ",
+    "search_name": "tikha ni bhuki 250 gram",
+    "price_paise": 18000
+  },
+  {
+    "id": 270,
+    "gujarati_name": "કડવું કરિયારૂ ૨૫૦ ગ્રામ",
+    "search_name": "kadvu kariyaru 250 gram",
+    "price_paise": 6000
+  },
+  {
+    "id": 271,
+    "gujarati_name": "મગજતરી ૨૫૦ ગ્રામ",
+    "search_name": "magaj tri 250 gram",
+    "price_paise": 10000
+  },
+  {
+    "id": 272,
+    "gujarati_name": "મગજતરી ૫૦૦ ગ્રામ",
+    "search_name": "magaj tri 500 gram",
+    "price_paise": 19000
+  },
+  {
+    "id": 273,
+    "gujarati_name": "ચારોલી ૨૫૦ ગ્રામ",
+    "search_name": "charoli 250 gram",
+    "price_paise": 60000
+  },
+  {
+    "id": 274,
+    "gujarati_name": "ચારોલી ૧૦૦ ગ્રામ",
+    "search_name": "charoli 100 gram",
+    "price_paise": 8000
+  },
+  {
+    "id": 275,
+    "gujarati_name": "પિસ્તા મોરા ૨૫૦ ગ્રામ",
+    "search_name": "pista mora 250 gram",
+    "price_paise": 60000
+  },
+  {
+    "id": 276,
+    "gujarati_name": "પિસ્તા મોરા ૫૦૦ ગ્રામ",
+    "search_name": "pista mora 500 gram",
+    "price_paise": 120000
+  },
+  {
+    "id": 277,
+    "gujarati_name": "કાજુ ટુકડા ૫૦૦ ગ્રામ",
+    "search_name": "kaju  tukda 500 gram",
+    "price_paise": 40000
+  }
+]

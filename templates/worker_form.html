@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}કર્મચારી {{ 'સુધારો' if worker else 'ઉમેરો' }} · Prince Masala{% endblock %}
+{% block content %}
+<a class="back-link" href="{{ url_for('salary.index') }}">← કર્મચારી પગાર</a>
+<div class="page-heading"><p class="eyebrow" lang="en">WORKER DETAILS</p><h1>કર્મચારી {{ 'સુધારો' if worker else 'ઉમેરો' }}</h1></div>
+{% include "salary_errors.html" %}
+<form class="form-panel" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="form_token" value="{{ form_token }}">
+<div class="field"><label for="worker-name">કર્મચારીનું નામ</label><input id="worker-name" name="name" value="{{ values.name }}" maxlength="150" required placeholder="કર્મચારીનું નામ દાખલ કરો"></div>
+<div class="field"><label for="worker-rate">કલાક દીઠ દર (₹)</label><input id="worker-rate" name="rate" value="{{ values.rate }}" maxlength="12" inputmode="decimal" required placeholder="દા.ત. 50.00"></div>
+<p class="hint">દર બદલવાથી અગાઉ નોંધાયેલા દિવસોનો પગાર બદલાશે નહીં. નવો દર નવી નોંધ પર લાગુ પડશે.</p>
+<div class="form-actions"><button type="submit">સાચવો</button><a class="button secondary" href="{{ url_for('salary.detail', worker_id=worker.id) if worker else url_for('salary.index') }}">રદ કરો</a></div></form>
+{% endblock %}
